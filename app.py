@@ -11,7 +11,6 @@ from function import addition
 
 app = FastAPI()
 
-
 class Numbers(BaseModel):
     num1: float
     num2: float
